@@ -130,10 +130,15 @@ Notes:
 To create the tidy datafile, the following steps are applied:
 
 1) Obtain the data from the source and save it uncompressed in local storage
+
 2) Read the data in the relevant files into data frames
+
 3) Merge the train and test sets and assign colunm names
+
 4) Extract the Mean and Std colunms from the merged set toghethger with the activity and subjects data
+
 5) Transform the labels to have meaningful variable names
+
 6) Create a second tidy data frame with average of each variable by activity and subject a write it to a file
 
 
