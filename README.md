@@ -29,9 +29,8 @@ You will be required to submit:
 ## How to create the tidy data set
 
 1. clone this repository: `git clone https://github.com/pedroa2silva/coursera-gettingandcleaningdata-project.git`
-2. download [compressed raw data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-3. open a R console and set the working directory to the repository root (use setwd())
-4. source run_analisys.R script (it requires the plyr package): `source('run_analysis.R')`. The code will download the file to a data folder under the working directory you selected.
-* If you're running on a Mac machine uncomment the line __download.file(fileUrl,destfile=destFileNameAndPath, method = "curl")__ and comment the previous line __download.file(fileUrl,destfile=destFileNameAndPath)__
+2. open a R console and set the working directory to the repository root (use setwd())
+3. source run_analisys.R script (it requires the plyr package): `source('run_analysis.R')`. The code will download the file to a data folder under the working directory you selected.
+   Note: If you're running on a Mac machine uncomment the line __download.file(fileUrl,destfile=destFileNameAndPath, method = "curl")__ and comment the previous line __download.file(fileUrl,destfile=destFileNameAndPath)__
 
 When the code finishes running you will find in the repository root directory the file `tidydata.txt` with the tidy data set.
