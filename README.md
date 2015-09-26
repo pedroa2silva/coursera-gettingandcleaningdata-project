@@ -28,7 +28,7 @@ You will be required to submit:
 
 ## How to create the tidy data set
 
-1. clone this repository: `git clone git@github.com:maurotrb/getting-cleaning-data-2014-project.git`
+1. clone this repository: `https://github.com/pedroa2silva/coursera-gettingandcleaningdata-project.git`
 2. download [compressed raw data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 3. unzip raw data and copy the directory `UCI HAR Dataset` to the cloned repository root directory
 4. open a R console and set the working directory to the repository root (use setwd())
