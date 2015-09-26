@@ -1,4 +1,4 @@
-# Codebook
+# Getting and Cleaning Data Project Codebook
 Pedro Silva  
 2015-09-24  
 
@@ -6,7 +6,9 @@ Pedro Silva
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit:
 
 1) a tidy data set as described below,
+
 2) a link to a Github repository with your script for performing the analysis, and
+
 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
@@ -142,7 +144,9 @@ The data obtained from the raw data is is processed with the script run_analysis
 ###Guide to create the tidy data file
 
 1) Obtain de data from the UCI source
+
 2) The data file is uncompressed to a local folder
+
 3) The following data files are read into data frames:
 
 * train/X_train.txt - Observations train set
@@ -153,10 +157,15 @@ The data obtained from the raw data is is processed with the script run_analysis
 * test/subject_test.txt - Subjects Teset
 
 4) The train and test sets are merged, creating a data frame that contains all the variables data, along with the activities and subjects data
+
 5) The data lables of the variables is read from the features.txt file and are assigned to the data frame, also adding the labels for the activity and subject columns
+
 6) A new data frame is created by selecting all the Mean and Std columns as well as the activity and subject columns
+
 7) The tidy data set is finaly obtaind by transforming the labels names to obtain more meaningful names for the variables
+
 8) A second tidy data set is calculed by calculating the average of each variable for each activity and subject
+
 9) The second tidy data set is writen to a file named tidydata.txt
 
 
